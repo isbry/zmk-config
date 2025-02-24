@@ -86,7 +86,7 @@
           >;
         };
 
-        sym_layer
+        sym_layer {
           display-name = "Sym";
           bindings = <
               &none   /**/  &kp EXCL    &kp AT         &kp HASH     &kp DLLR    &kp PRCNT   /**/  &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR  /**/  &none
