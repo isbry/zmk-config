@@ -4,18 +4,14 @@
 
         layer_indicator {
             compatible = "zmk,layer-state";
-            text = "Layer: ";
-            layers = <0>, <1>, <2>, <3>;
         };
 
         bluetooth_status {
             compatible = "zmk,bt-state";
-            text = "Bluetooth: ";
         };
 
         battery_status {
             compatible = "zmk,battery-state";
-            text = "Battery: %d%%";
         };
 
         display_logo {
