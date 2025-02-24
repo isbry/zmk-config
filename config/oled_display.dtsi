@@ -1,0 +1,33 @@
+/ {
+    oled_display {
+        compatible = "zmk,oled-display";
+
+        animations {
+            typing_effect {
+                frame_delay = <100>;
+                images = <&frame1>, <&frame2>, <&frame3>;
+            };
+        };
+
+        layer_indicator {
+            compatible = "zmk,oled-display";
+            text = "Layer: ";
+            layers = <DEFAULT "Base">, <NUM "Numbers">, <SYM "Symbols">, <FUNC "Functions">;
+        };
+
+        bluetooth_status {
+            compatible = "zmk,oled-display";
+            states = <CONNECTED "BT: On">, <DISCONNECTED "BT: Off">;
+        };
+
+        battery_status {
+            compatible = "zmk,oled-display";
+            format = "Battery: %d%%";
+        };
+
+        display_logo {
+            compatible = "zmk,oled-display";
+            display_image = <&logo>;
+        };
+    };
+};
