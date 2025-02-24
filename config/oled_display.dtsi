@@ -13,13 +13,37 @@
             compatible = "zmk,oled-display";
             label = "Layer Indicator";
             text = "Layer: ";
-            layers = <DEFAULT>, <NUM>, <SYM>, <FUNC>;
+            layers = <&layer_base>, <&layer_numbers>, <&layer_symbols>, <&layer_functions>;
+        };
+
+        layer_base {
+            label = "Base";
+        };
+
+        layer_numbers {
+            label = "Numbers";
+        };
+
+        layer_symbols {
+            label = "Symbols";
+        };
+
+        layer_functions {
+            label = "Functions";
         };
 
         bluetooth_status {
             compatible = "zmk,oled-display";
             label = "Bluetooth Status";
-            states = <CONNECTED>, <DISCONNECTED>;
+            states = <&bt_disconnected>, <&bt_connected>;
+        };
+
+        bt_disconnected {
+            label = "BT Off";
+        };
+
+        bt_connected {
+            label = "BT On";
         };
 
         battery_status {
