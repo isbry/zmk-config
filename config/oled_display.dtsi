@@ -11,22 +11,26 @@
 
         layer_indicator {
             compatible = "zmk,oled-display";
+            label = "Layer Indicator";
             text = "Layer: ";
-            layers = <DEFAULT "Base">, <NUM "Numbers">, <SYM "Symbols">, <FUNC "Functions">;
+            layers = <DEFAULT>, <NUM>, <SYM>, <FUNC>;
         };
 
         bluetooth_status {
             compatible = "zmk,oled-display";
-            states = <CONNECTED "BT: On">, <DISCONNECTED "BT: Off">;
+            label = "Bluetooth Status";
+            states = <CONNECTED>, <DISCONNECTED>;
         };
 
         battery_status {
             compatible = "zmk,oled-display";
+            label = "Battery Status";
             format = "Battery: %d%%";
         };
 
         display_logo {
             compatible = "zmk,oled-display";
+            label = "Display Logo";
             display_image = <&logo>;
         };
     };
