@@ -2,60 +2,25 @@
     oled_display {
         compatible = "zmk,oled-display";
 
-        animations {
-            typing_effect {
-                frame_delay = <100>;
-                images = <&frame1>, <&frame2>, <&frame3>;
-            };
-        };
-
         layer_indicator {
-            compatible = "zmk,oled-display";
-            label = "Layer Indicator";
+            compatible = "zmk,layer-state";
             text = "Layer: ";
-            layers = <&layer_0>, <&layer_1>, <&layer_2>, <&layer_3>;
-        };
-
-        layer_0 {
-            label = "Base";
-        };
-
-        layer_1 {
-            label = "NUM";
-        };
-
-        layer_2 {
-            label = "SYM";
-        };
-
-        layer_3 {
-            label = "FUNC";
+            layers = <0>, <1>, <2>, <3>;
         };
 
         bluetooth_status {
-            compatible = "zmk,oled-display";
-            label = "Bluetooth Status";
-            states = <&bt_off>, <&bt_on>;
-        };
-
-        bt_off {
-            label = "BT Off";
-        };
-
-        bt_on {
-            label = "BT On";
+            compatible = "zmk,bt-state";
+            text = "Bluetooth: ";
         };
 
         battery_status {
-            compatible = "zmk,oled-display";
-            label = "Battery Status";
-            format = "Battery: %d%%";
+            compatible = "zmk,battery-state";
+            text = "Battery: %d%%";
         };
 
         display_logo {
-            compatible = "zmk,oled-display";
-            label = "Display Logo";
-            display_image = <&logo>;
+            compatible = "zmk,oled-image";
+            image = <&logo>;
         };
     };
 };
