@@ -71,8 +71,8 @@
       display-name = "Sym";
       bindings = <
         &none   &kp EXCL    &kp AT    &kp LBKT    &kp RBKT   &kp PIPE   /**/    &none    &none   &none   &none   &none   &none
-        &none    &none   &none   &none   &none   &none   /**/    &none    &none   &none   &none   &none   &none   &none
-        &none    &none   &none   &none   &none   &none    /**/    &none    &none   &none   &none   &none   &none
+        &none   &kp HASH    &kp DLLR   &kp LPAR    &kp RPAR    &kp GRAVE   /**/    &none    &kp RSHIFT   &kp RCTRL   &kp RALT    &kp RGUI    &none
+        &none   &kp PRCNT   &kp CARET    &kp LBRC   &kp RBRC   &kp TILDE    /**/    &none    &none   &none   &none   &none   &none
                                     &trans   &trans   &trans   /**/    &trans    &trans   &trans
       >;
     };
