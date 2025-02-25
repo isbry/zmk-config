@@ -46,55 +46,5 @@
                   &lt MEDIA ESC   &lt NAV SPACE   &lt NUM TAB   /**/    &lt SYM RET   &kp BSPC   &lt FUNC DEL
       >;
     };
-
-    nav_layer {
-      display-name = "Nav";
-      bindings = <
-        &none   &none   &none   &none   &none   &none   /**/    &kp LC(Y)    &kp LC(V)    &kp LC(C)    &kp LC(X)    &kp LC(Z)    &none
-        &none   &kp LGUI    &kp LALT    &kp LCTRL   &kp LSHIFT    &none   /**/    &kp CAPS    &kp LEFT    &kp DOWN    &kp UP    &kp RIGHT   &none
-        &none   &none   &none   &none   &none   &none   /**/    &kp INS   &kp HOME    &kp PG_DOWN   &kp PG_UP   &kp END   &none
-                                    &trans   &trans   &trans   /**/    &kp RET    &kp BSPC   &kp DEL
-      >;
-    };
-
-    num_layer {
-      display-name = "Num";
-      bindings = <
-        &none   &none   &none   &none   &none   &none   /**/    &none    &kp KP_7    &kp KP_8   &kp KP_9   &kp KP_MULTIPLY   &none
-        &none   &kp LGUI    &kp LALT    &kp LCTRL   &kp LSHIFT    &none   /**/    &kp KP_MINUS    &kp KP_4    &kp KP_5   &kp KP_6   &kp KP_PLUS   &none
-        &none   &none   &none   &none   &none   &none   /**/    &kp KP_0    &kp KP_1    &kp KP_2   &kp KP_3   &kp KP_MINUS   &none
-                                    &trans   &trans   &trans   /**/    &kp EQUAL    &trans   &trans
-      >;
-    };
-
-    sym_layer {
-      display-name = "Sym";
-      bindings = <
-        &none   &kp EXCL    &kp AT    &kp LBKT    &kp RBKT   &kp PIPE   /**/    &none    &none   &none   &none   &none   &none
-        &none   &kp HASH    &kp DLR   &kp LPAR    &kp RPAR    &kp GRAVE   /**/    &none    &kp RSHIFT   &kp RCTRL   &kp RALT    &kp RGUI    &none
-        &none   &kp PRCNT   &kp CARET    &kp LBRC   &kp RBRC   &kp TILDE    /**/    &none    &none   &none   &none   &none   &none
-                                    &trans   &trans   &trans   /**/    &trans    &trans   &trans
-      >;
-    };
-
-    func_layer {
-      display-name = "Func";
-      bindings = <
-        &none   &kp F12   &kp F7    &kp F8    &kp F9    &kp PSCRN   /**/  &none    &none   &none   &none   &none   &none
-        &none   &kp F11   &kp F4    &kp F5    &kp F6    &kp SLCK    /**/  &none    &kp RSHIFT   &kp RCTRL   &kp RALT    &kp RGUI    &none
-        &none   &kp F10   &kp F1    &kp F2    &kp F3    &kp PAUSE   /**/  &none    &none   &none   &none   &none   &none
-                                    &trans   &trans   &trans   /**/    &trans    &trans   &trans
-      >;
-    };
-
-    media_layer {
-      display-name = "Media";
-      bindings = <
-        &none   &none   &none   &none   &none   &none   /**/    &kp C_BRI_DN   &kp C_BRI_UP   &none   &none   &none   &none
-        &none   &kp LGUI    &kp LALT    &kp LCTRL   &kp LSHIFT    &none   /**/    &none    &kp C_PREV   &kp C_VOL_DN    &kp C_VOL_UP    &kp C_NEXT   &none
-        &none   &none   &none   &none   &none   &none   /**/    &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2   &bt BT_NXT   &bt BT_CLR   &none
-                                  &trans   &trans   &trans    /**/    &kp C_STOP    &kp C_PP   &kp C_MUTE
-      >;
-    };
   };
 };
