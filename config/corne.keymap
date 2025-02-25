@@ -51,7 +51,7 @@
       display-name = "Nav";
       bindings = <
         &none   &none   &none   &none   &none   &none   /**/    &kp K_REDO    &kp K_PASTE   &kp K_COPY    &kp K_CUT   &kp K_UNDO   &none
-        &node   &kp LGUI    &kp LALT    &kp LCTRL   &kp LSHIFT    &none   /**/    &kp CAPS    &kp K_LEFT    &kp K_DOWN    &kp K_UP    &kp K_RIGHT   &none
+        &none   &kp LGUI    &kp LALT    &kp LCTRL   &kp LSHIFT    &none   /**/    &kp CAPS    &kp K_LEFT    &kp K_DOWN    &kp K_UP    &kp K_RIGHT   &none
         &none   &none   &none   &none   &none   &none   /**/    &kp INS   &kp HOME    &kp PG_DN   &kp PG_UP   &kp END   &none
                                     &trans   &trans   &trans   /**/    &kp RET    &kp BSPC   &kp DEL
       >;
@@ -61,7 +61,7 @@
       display-name = "Num";
       bindings = <
         &none   &none   &none   &none   &none   &none   /**/    &kp none    &kp KP_7    &kp KP_8   &kp KP_9   &kp KP_MULTIPLY   &none
-        &node   &kp LGUI    &kp LALT    &kp LCTRL   &kp LSHIFT    &none   /**/    &kp KP_MINUS    &kp KP_4    &kp KP_5   &kp KP_6   &kp KP_PLUS   &none
+        &none   &kp LGUI    &kp LALT    &kp LCTRL   &kp LSHIFT    &none   /**/    &kp KP_MINUS    &kp KP_4    &kp KP_5   &kp KP_6   &kp KP_PLUS   &none
         &none   &none   &none   &none   &none   &none   /**/    &kp KP_0    &kp KP_1    &kp KP_2   &kp KP_3   &kp KP_MINUS   &none
                                     &trans   &trans   &trans   /**/    &kp EQUAL    &trans   &trans
       >;
@@ -71,7 +71,7 @@
       display-name = "Sym";
       bindings = <
         &none   &kp EXCL    &kp AT    &kp LBKT    &kp RIGHT_BRACKET   &kp PIPE2   /**/    &none    &none   &none   &none   &none   &none
-        &node   &kp HASH    &kp DLR   &kp LPAR    &kp RPAR    &kp GRAVE   /**/    &none    &kp RSHIFT   &kp RCTRL   &kp RALT    &kp RGUI    &none
+        &none   &kp HASH    &kp DLR   &kp LPAR    &kp RPAR    &kp GRAVE   /**/    &none    &kp RSHIFT   &kp RCTRL   &kp RALT    &kp RGUI    &none
         &none   &kp PRCNT   &kp CARET    &kp LBRC   &kp RBRC   &kp TILDE    /**/    &none    &none   &none   &none   &none   &none
                                     &trans   &trans   &trans   /**/    &trans    &trans   &trans
       >;
@@ -91,7 +91,7 @@
       display-name = "Media";
       bindings = <
         &none   &none   &none   &none   &none   &none   /**/    &kp C_BRI_DEC   &kp C_BRI_INC   &none   &none   &none   &none
-        &node   &kp LGUI    &kp LALT    &kp LCTRL   &kp LSHIFT    &none   /**/    &none    &kp K_PREV   &kp K_VOL_DN    &kp K_VOL_UP    &kp K_NEXT   &none
+        &none   &kp LGUI    &kp LALT    &kp LCTRL   &kp LSHIFT    &none   /**/    &none    &kp K_PREV   &kp K_VOL_DN    &kp K_VOL_UP    &kp K_NEXT   &none
         &none   &none   &none   &none   &none   &none   /**/    &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2   &bt BT_NXT   &bt BT_CLR   &none
                                   &trans   &trans   &trans    /**/    &kp K_STOP    &kp K_PP   &kp K_MUTE
       >;
