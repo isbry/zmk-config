@@ -46,5 +46,15 @@
                   &lt MEDIA ESC   &lt NAV SPACE   &lt NUM TAB   /**/    &lt SYM RET   &kp BSPC   &lt FUNC DEL
       >;
     };
+
+    nav_layer {
+      display-name = "Nav";
+      bindings = <
+        &none   &none   &none   &none   &none   &none   /**/    &kp LC(Y)    &kp LC(V)    &kp LC(C)    &kp LC(X)    &kp LC(Z)    &none
+        &none   &kp LGUI    &kp LALT    &kp LCTRL   &kp LSHIFT    &none   /**/    &kp CAPS    &kp LEFT    &kp DOWN    &kp UP    &kp RIGHT   &none
+        &none   &none   &none   &none   &none   &none   /**/    &kp INS   &kp HOME    &kp PG_DOWN   &kp PG_UP   &kp END   &none
+                                    &trans   &trans   &trans   /**/    &kp RET    &kp BSPC   &kp DEL
+      >;
+    };
   };
 };
