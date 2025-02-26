@@ -1,3 +1,3 @@
 # Bry zmk-config
 
-![corne-lp](docs/corne.png)
+![corne-lp](docs/corne.svg)
