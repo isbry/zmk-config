@@ -71,9 +71,9 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - $$material:keyboard_return$$
-  - $$phosphor:regular/backspace$$
-  - DEL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   Num:
   - ''
   - ''
