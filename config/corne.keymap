@@ -77,7 +77,7 @@
         &kp EXCL    &kp AT    &kp LBKT    &kp RBKT   &kp PIPE   /**/    &none    &none   &none   &none   &none
         &kp HASH    &kp DLLR   &kp LPAR    &kp RPAR    &kp GRAVE   /**/    &none    &kp RSHIFT   &kp RCTRL   &kp RALT    &kp RGUI
         &kp PRCNT   &kp CARET    &kp LBRC   &kp RBRC   &kp TILDE    /**/    &none    &none   &none   &none   &none
-                                &trans   &trans   &trans   /**/    &trans    &trans   &trans
+                                &trans   &kp MINUS   &kp SQT    /**/    &trans    &trans   &trans
       >;
     };
 
