@@ -1,0 +1,224 @@
+layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x5_3}
+layers:
+  Base:
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: A, h: $$phosphor:regular/command$$}
+  - {t: S, h: $$phosphor:regular/option$$}
+  - {t: D, h: $$phosphor:regular/control$$}
+  - {t: F, h: $$phosphor:regular/arrow-fat-up$$}
+  - G
+  - H
+  - {t: J, h: $$phosphor:regular/arrow-fat-up$$}
+  - {t: K, h: $$phosphor:regular/control$$}
+  - {t: L, h: $$phosphor:regular/option$$}
+  - {t: ;, h: $$phosphor:regular/command$$}
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ', <'
+  - '. >'
+  - '/ ?'
+  - {t: ESC, h: Media}
+  - {t: $$mdi:keyboard-space$$, h: Nav}
+  - {t: TAB, h: Num}
+  - {t: $$material:keyboard_return$$, h: Sym}
+  - $$phosphor:regular/backspace$$
+  - {t: DEL, h: Func}
+  Nav:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - REDO
+  - PASTE
+  - COPY
+  - CUT
+  - UNDO
+  - $$phosphor:regular/command$$
+  - $$phosphor:regular/option$$
+  - $$phosphor:regular/control$$
+  - $$phosphor:regular/arrow-fat-up$$
+  - ''
+  - CAPS
+  - $$phosphor:regular/arrow-left$$
+  - $$phosphor:regular/arrow-down$$
+  - $$phosphor:regular/arrow-up$$
+  - $$phosphor:regular/arrow-right$$
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - INS
+  - HOME
+  - PG DN
+  - PG UP
+  - END
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - $$material:keyboard_return$$
+  - $$phosphor:regular/backspace$$
+  - DEL
+  Num:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - /
+  - 7
+  - 8
+  - 9
+  - '*'
+  - $$phosphor:regular/command$$
+  - $$phosphor:regular/option$$
+  - $$phosphor:regular/control$$
+  - $$phosphor:regular/arrow-fat-up$$
+  - ''
+  - '-'
+  - 4
+  - 5
+  - 6
+  - +
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - 0
+  - 1
+  - 2
+  - 3
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - '='
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  Sym:
+  - '!'
+  - '@'
+  - '['
+  - ']'
+  - '|'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '#'
+  - $
+  - (
+  - )
+  - '`'
+  - ''
+  - $$phosphor:regular/arrow-fat-up$$
+  - $$phosphor:regular/control$$
+  - $$phosphor:regular/option$$
+  - $$phosphor:regular/command$$
+  - '%'
+  - ^
+  - '{'
+  - '}'
+  - '~'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - '-'
+  - ''''
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  Func:
+  - F12
+  - F7
+  - F8
+  - F9
+  - PSCRN
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - F11
+  - F4
+  - F5
+  - F6
+  - SLCK
+  - ''
+  - $$phosphor:regular/arrow-fat-up$$
+  - $$phosphor:regular/control$$
+  - $$phosphor:regular/option$$
+  - $$phosphor:regular/command$$
+  - F10
+  - F1
+  - F2
+  - F3
+  - PAUSE BREAK
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  Media:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - $$phosphor:regular/sun-dim$$
+  - $$phosphor:regular/sun$$
+  - ''
+  - $$phosphor:regular/command$$
+  - $$phosphor:regular/option$$
+  - $$phosphor:regular/control$$
+  - $$phosphor:regular/arrow-fat-up$$
+  - ''
+  - ''
+  - $$phosphor:regular/skip-back$$
+  - $$phosphor:regular/speaker-low$$
+  - $$phosphor:regular/speaker-high$$
+  - $$phosphor:regular/skip-forward$$
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - BT NXT
+  - BT CLR
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - $$phosphor:regular/stop$$
+  - $$phosphor:regular/play-pause$$
+  - $$phosphor:regular/speaker-slash$$
